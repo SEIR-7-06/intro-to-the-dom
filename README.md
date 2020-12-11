@@ -1,7 +1,7 @@
 
 <img src="https://i.imgur.com/ijRQ97Z.jpg" width="300">
 
-# Into to the DOM
+# Intro to the DOM
 
 ---
 ## Learning Objectives
