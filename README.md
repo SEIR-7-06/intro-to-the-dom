@@ -58,19 +58,15 @@
 ### Setup
 <br>
 
-- Move to today's directory in the class repo.
+- Clone the [dom-practice repo](https://git.generalassemb.ly/Milcah/dom-practice.git).
 
-- Create a folder named `dom-practice` and `cd` into it.
-
-- Touch an `index.html` and use `! [tab]` to create the HTML boilerplate.
-
-- Make a `js` folder and touch a `js/main.js` file.
+- We'll review the boilerplate together.
 
 ---
-### Setup
+### Review Setup
 <br>
 
-- Add a `<script>` tag to include `main.js` in the `<head>`:
+- Look at the `<script>` tag. It includes `main.js` in the `<head>`:
 
 	```html
 	<head>
