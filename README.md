@@ -41,6 +41,17 @@
 
 - The [DOM (Document Object Model)](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction) is the in-memory representation of a browser's web document.
 
+Matt Basile of [Matt's Lambda Minutes](https://medium.com/matts-lambda-minutes/how-to-dominate-the-dom-with-javascript-dba76d6c2d7b) blog uses the best metaphor to describe the DOM, comparing it to those old school, bulky projectors your math teacher used in grade school:
+
+<img src="https://miro.medium.com/max/576/1*RqdwndNvhTo41BKAk4myxg.jpeg" width="300">
+<img src="https://i.imgur.com/KR0J9YZ.png" width="300">
+<img src="https://i.imgur.com/Y4ymICe.png" width="300">
+
+> 1. The piece of translucent paper placed on the projector is our HTML.
+> 2. The projector is our browser, working to churn our HTML into a DOM representation.
+> 3. The projection on the chalkboard is the DOM representation of our HTML on a browser(our webpage).
+> 4. Any notes our teacher makes on the translucent sheet is us trying to manipulate our DOM.
+
 - It's a tree-like data structure with the top (root) being the `document` object.
 
 - Let's type `document` in DevTool's console and explore some of its properties.
@@ -99,7 +110,7 @@
 ### Using DevTools to Explore the DOM
 <br>
 
-- First let's install the **open in browser** VS Code extension so that we can open HTML pages in the browser a keyboard shortcut of `option-b`.
+- First let's install the **open in browser** VS Code extension so that we can open HTML pages in the browser a keyboard shortcut of [`option-b`](https://marketplace.visualstudio.com/items?itemName=techer.open-in-browser).
 
 - After `index.html` is opened in Chrome, use the keyboard shortcut of `option-command-i` to open Chrome's DevTools.
 
