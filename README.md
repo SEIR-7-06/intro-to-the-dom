@@ -69,7 +69,7 @@ Matt Basile of [Matt's Lambda Minutes](https://medium.com/matts-lambda-minutes/h
 ### Setup
 <br>
 
-- Clone the [dom-practice repo](https://git.generalassemb.ly/Milcah/dom-practice.git).
+- Clone this repo.
 
 - We'll review the boilerplate together.
 
