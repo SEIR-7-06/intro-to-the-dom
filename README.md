@@ -210,8 +210,8 @@ Matt Basile of [Matt's Lambda Minutes](https://medium.com/matts-lambda-minutes/h
 - Now that we're able to select an element of our choosing, let's see how we can change the content of that element.
 
 - By inspecting the properties of a DOM element in the console, we will find a couple of properties that we can use to read and set its content:
-	- **`innerHTML`** - Used to retrieve/set content as HTML
 	- **`textContent`** - Used to retrieve/set content as plain text
+	- **`innerHTML`** - An unsafe(!) way to retrieve/set content as HTML
 
 ---
 ### Change the content of an element
@@ -227,7 +227,9 @@ Matt Basile of [Matt's Lambda Minutes](https://medium.com/matts-lambda-minutes/h
 
 - The power of `innerHTML` may not be obvious, but consider the string can be as complex as you want - containing multiple elements with attributes, etc.
 
-- However, using `textContent` is more efficient if just setting text.
+- However the use of innerHTML is discouraged - due to [security considerations explained here](https://developer.mozilla.org/en-US/docs/Web/API/Element/innerHTML#security_considerations). 
+
+- Therefore, favor using `textContent` to set text.
 
 ---
 ### Change the style of an element
